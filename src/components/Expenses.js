@@ -7,22 +7,22 @@ function Expenses(props) {
       <ExpenseItem
         title={props.items[0].title}
         date={props.items[0].date}
-        amunt={props.items[0].amount}
+        amount={props.items[0].amount}
       />
       <ExpenseItem
         title={props.items[1].title}
         date={props.items[1].date}
-        amunt={props.items[1].amount}
+        amount={props.items[1].amount}
       />
       <ExpenseItem
         title={props.items[2].title}
         date={props.items[2].date}
-        amunt={props.items[2].amount}
+        amount={props.items[2].amount}
       />
       <ExpenseItem
         title={props.items[3].title}
         date={props.items[3].date}
-        amunt={props.items[3].amount}
+        amount={props.items[3].amount}
       />
     </div>
   );
